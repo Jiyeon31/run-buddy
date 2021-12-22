@@ -1,4 +1,4 @@
-# run-buddy
+# Run-Buddy, Inc
 
 ## Purpose
 
@@ -13,3 +13,5 @@ https://Jiyeon31.github.io/run-buddy
 
 ## Contribution
 Made With ❤️ by Jiyeon You
+
+### ©️2019 Run Buddy, Inc

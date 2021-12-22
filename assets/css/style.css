@@ -85,7 +85,7 @@ header nav ul li a {
     padding: 20px;
     margin: 3.5%;
     color: #024e76;
-    width: 40%;
+    width: 50%;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -199,7 +199,7 @@ header nav ul li a {
     padding-bottom: 20px;
     text-align: center;
     margin: 0 auto 35px auto;
-    width: 50%;
+    width: 100%;
 }
 
 .primary-border {
@@ -272,7 +272,7 @@ header nav ul li a {
 .contact-info iframe {
     height: 350px;
     float: left;
-    margin: -10px 50px 50px 200px;
+    margin: -10px 10px 50px 50px;
 }
 
 .contact-info div {

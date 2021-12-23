@@ -157,6 +157,10 @@ header nav ul li a:hover {
     left: -30px;
 }
 
+.radio-wrapper label::before {
+    border-radius: 50%;
+}
+
 .radio-wrapper label::after {
     content: "";
     width: 20px;
@@ -166,7 +170,7 @@ header nav ul li a:hover {
     position: absolute;
     left: -29px;
     top: -3px;
-    background-image: radial-gradient(circle, #39a6b2, var(--secondary-color));
+    background-image: radial-gradient(circle, var(--tertiary-color), var(--secondary-color));
 }
 
 .checkbox-wrapper label::after {
@@ -193,10 +197,6 @@ header nav ul li a:hover {
 .checkbox-wrapper input:checked + label::after,
 .radio-wrapper input:checked + label::after {
     content: "";
-}
-
-.radio-wrapper label::before {
-    border-radius: 50%;
 }
 
 /* Hero Style End */

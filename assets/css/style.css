@@ -83,7 +83,7 @@ header nav ul li a:hover {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    align-items: flex-start
+    align-items: flex-start;
 }
 
 .hero-cta {

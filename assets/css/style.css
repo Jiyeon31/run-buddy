@@ -104,14 +104,13 @@ header nav ul li a:hover {
 
 .hero-form {
     border: 3px solid var(--secondary-color);
-    background-color: var(--primary-color);
+    background-color: rgba(252, 225, 56, 0.8);
     padding: 20px;
     margin: 3.5%;
-    color: #024e76;
     width: 50%;
     color: var(--secondary-color);
     border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
 }
 
 .hero-form h3 {
@@ -133,7 +132,7 @@ header nav ul li a:hover {
     border: none;
     padding: 10px 20px;
     font-size: 16px;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .hero-form button:hover {
@@ -210,7 +209,7 @@ header nav ul li a:hover {
     color: var(--secondary-color);
     width: 100%;
     margin-bottom: 15px;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .form-input:focus {
@@ -239,7 +238,6 @@ header nav ul li a:hover {
     margin: 50px auto;
     padding-bottom: 50px;
     width: 80%;
-    border-bottom: 1px solid var(--tertiary-color);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -295,18 +293,15 @@ header nav ul li a:hover {
     max-width: 100%;
 }
 
-.section-title {
+.section-title, .primary-border {
     font-size: 48px;
     border-bottom: 3px solid;
+    border-color: var(--primary-color);
     color: var(--secondary-color);
     padding-bottom: 20px;
     text-align: center;
     margin: 0 auto 35px auto;
     width: 100%;
-}
-
-.primary-border {
-    border-color: var(--primary-color);
 }
 
 .secondary-border {
@@ -417,7 +412,7 @@ header nav ul li a:hover {
     width: 100%;
     margin-bottom: 15px;
     margin-top: 5px;
-    border-radius: 15px;
+    border-radius: 10px;
     background-color: rgba(255,255,255, 0.75);
 }
 
@@ -433,7 +428,7 @@ header nav ul li a:hover {
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .contact-form button:hover {
@@ -475,6 +470,10 @@ section h2 {
 
 .flex-row {
     display: flex;
+}
+
+.flex-row p {
+    text-align: center;
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCEENS AND SMALLER */
